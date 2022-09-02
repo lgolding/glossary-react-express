@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "A web site and web service that provides a technical glossary.",
   "repository": "github:lgolding/glossary-react-express",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Larry Golding",
